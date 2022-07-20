@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   namespace :api, defaults: {format: :json} do
-    namespace: :v1 do
+    namespace :v1 do
     end 
   end
 end
