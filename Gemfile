@@ -79,3 +79,4 @@ end
 gem "faker"
 gem "pagy", "~> 5.5"
 gem "pg_search", "~> 2.3"
+gem "bcrypt", "~> 3.1.7"
