@@ -6,4 +6,10 @@ class ProductTest < ActiveSupport::TestCase
     product.price = -1
     assert_not product.valid?
   end
+
+  test 'destroy user should destory the linked product' do
+    assert_difference('Product.count', -1) do
+      users(:one).destroy
+    end
+  end
 end
