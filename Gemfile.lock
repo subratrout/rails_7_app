@@ -88,6 +88,8 @@ GEM
     erubi (1.10.0)
     faker (2.19.0)
       i18n (>= 1.6, < 2)
+    fast_jsonapi (1.5)
+      activesupport (>= 4.2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.8.11)
@@ -216,6 +218,7 @@ DEPENDENCIES
   cssbundling-rails
   debug
   faker
+  fast_jsonapi (~> 1.5)
   jbuilder
   jsbundling-rails
   jwt (~> 2.2)
